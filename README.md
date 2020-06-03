@@ -9,7 +9,7 @@ All the required packages along with their version are in the `requirements.txt`
 pip3 install -r requirements.txt
 ```
 ## Analysis and Result
-Because the company's goal is to preserve their customers as far as possible, our model needs to have low false negative. In other words, we want to optimize our model to have the highest possible recall score. It turned out that the best recall score is given by random forest classifier (A lot of algorithms have been tested from logistic regression to AdaBoost and CatBoost). The highest recall score is 0.84. Bellow the shap values is used to find the most influencing variables on customer churn:
+Because the company's goal is to retain their customers as far as possible, our model needs to have low false negative. In other words, we want to optimize our model to have the highest possible recall score. It turned out that the best recall score is given by random forest classifier (A lot of algorithms have been tested from logistic regression to AdaBoost and CatBoost). The highest recall score is 0.84. Bellow the shap values is used to find the most influencing variables on customer churn:
 
 ![shap](https://github.com/arashag/Telecom-Company-Customer-Behavior-Analysis/raw/master/images/shap.png)
 
